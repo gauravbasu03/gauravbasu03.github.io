@@ -99,7 +99,7 @@ h3 {
 
 p {
 	margin-bottom: 1.5em;
-	color: #d1d1d1;
+	color: #000000;
 }
 
 ul {
@@ -141,7 +141,7 @@ input:focus, select:focus, textarea:focus {
 }
 
 header.major h2 {
-	color: #ffffff;
+	color: #ff0000;
 	font-size: 2em;
 	font-weight: 700;
 	margin-bottom: 1em;
