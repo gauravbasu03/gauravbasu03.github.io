@@ -140,6 +140,56 @@ header.major h2 {
         margin-bottom: 20px;
     }
 }
+/* Education Section */
+.education article {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.education article .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education article img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+.education article .dates {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #999;
+    text-align: center;
+}
+
+.education article .right {
+    flex: 3;
+    padding-left: 20px;
+}
+
+.education article h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.education article h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: #666;
+}
+
+.education article p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
 /* Footer */
 #footer {
     margin-top: 50px;

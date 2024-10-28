@@ -1,13 +1,97 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Gaurav Basu</title>
+		<title>Gaurav Basu | Software Engineer</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	
+		<!-- Fonts -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+	
+		<!-- Main CSS -->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	
+		<!-- Additional Header Styling -->
+		<style>
+			/* Enhanced Header Styles */
+			#intro {
+				padding: 60px 0;
+				background: linear-gradient(135deg, #333, #555);
+				color: #f4f4f9;
+				text-align: center;
+				animation: fadeIn 1s ease-in-out;
+			}
+	
+			#intro h1 {
+				font-family: 'Roboto', sans-serif;
+				font-size: 3.5rem;
+				font-weight: 700;
+				margin-bottom: 10px;
+			}
+	
+			#intro h3 {
+				font-family: 'Roboto', sans-serif;
+				font-size: 1.8rem;
+				font-weight: 400;
+				color: #f77f00;
+				margin-bottom: 15px;
+			}
+	
+			#intro p {
+				font-family: 'Roboto', sans-serif;
+				font-size: 1.1rem;
+				color: #ddd;
+				margin-bottom: 20px;
+			}
+	
+			/* Social Links */
+			#intro .social-links {
+				margin-top: 20px;
+			}
+	
+			#intro .social-links a {
+				color: #f77f00;
+				margin: 0 10px;
+				font-size: 1.5rem;
+				transition: color 0.3s ease;
+			}
+	
+			#intro .social-links a:hover {
+				color: #d66e00;
+			}
+	
+			/* Button Styling */
+			#intro .button {
+				font-family: 'Roboto', sans-serif;
+				background-color: #f77f00;
+				color: #fff;
+				padding: 12px 25px;
+				text-transform: uppercase;
+				border-radius: 8px;
+				transition: background-color 0.3s ease;
+			}
+	
+			#intro .button:hover {
+				background-color: #d66e00;
+				transform: scale(1.05);
+			}
+	
+			/* Fade-in Animation */
+			@keyframes fadeIn {
+				from {
+					opacity: 0;
+					transform: translateY(-10px);
+				}
+				to {
+					opacity: 1;
+					transform: translateY(0);
+				}
+			}
+		</style>
 	</head>
-	<body class="is-preload">
+			<body class="is-preload">
 
 		<!-- Wrapper -->
 		<div id="wrapper" class="fade-in">
@@ -16,11 +100,35 @@
 			<div id="intro">
 				<h1>Gaurav Basu</h1>
 				<h3>Software Engineer, Data Analyst</h3>
-				<p>US Citizen | Fontana, California</p>
+				<p>US Citizen | Diamond Bar, California</p>
+				<div class="social-links">
+					<a href="https://github.com/gauravbasu03" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+					<a href="https://www.linkedin.com/in/gaurav-basu-2b9a26215/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+					<a href="mailto:gauravbasu03@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+				</div>
+			
 			</div>
 
 			<!-- Main -->
 			<div id="main">
+				<section class="education">
+					<header class="major">
+						<h2>Education</h2>
+					</header>
+				
+					<!-- Loyola Marymount University -->
+					<article>
+						<div class="left">
+							<img src="images/lmu.jpg" alt="LMU Logo">
+							<span class="dates">(Expected Graduation: May 2025)</span>
+						</div>
+						<div class="right">
+							<h3>Loyola Marymount University</h3>
+							<h4>B.S. in Computer Science</h4>
+							<p>Current GPA: 3.8 | Dean’s List Recipient<br>
+							   Relevant Courses: Data Structures + Algorithms, Data Science, Database Management.</p>
+						</div>
+					</article>
 
 				<section class="posts">
 					<header class="major">
@@ -107,35 +215,11 @@
 					</article>
 				</section>
 				
-				
-			<!-- Footer -->
-			<footer id="footer">
-				<section>
-					<form method="post" action="#">
-						<div class="fields">
-							<div class="field">
-								<label for="name">Name</label>
-								<input type="text" name="name" id="name" />
-							</div>
-							<div class="field">
-								<label for="email">Email</label>
-								<input type="text" name="email" id="email" />
-							</div>
-							<div class="field">
-								<label for="message">Message</label>
-								<textarea name="message" id="message" rows="3"></textarea>
-							</div>
-						</div>
-						<ul class="actions">
-							<li><input type="submit" value="Send Message" /></li>
-						</ul>
-					</form>
 				</section>
-			</footer>
-
+				
 			<!-- Copyright -->
 			<div id="copyright">
-				<ul><li>&copy; Gaurav Basu</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+				<li>Gaurav Basu</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
 			</div>
 
 		</div>
